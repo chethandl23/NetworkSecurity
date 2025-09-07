@@ -7,3 +7,7 @@ seaborn
 flask
 requests
 pymongo
+setuptools
+
+
+##-e .
