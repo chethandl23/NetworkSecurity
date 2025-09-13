@@ -10,4 +10,5 @@ pymongo
 setuptools
 certifi
 pymongo[srv]==3.12
-
+PyYAML
+dill
