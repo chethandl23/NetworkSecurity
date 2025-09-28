@@ -20,7 +20,7 @@ class DataValidation:
             self.schema_config = read_yaml_file(SCHEMA_FILE_PATH)
 
         except Exception as e:
-            raise NetworkSecurityException(e, sys) from e
+            raise NetworkSecurityException(e, sys)
     @staticmethod
     def read_data(file_path)->pd.DataFrame:
         try:
@@ -30,7 +30,7 @@ class DataValidation:
         
     def validate_number_of_columns(self,dataframe:pd.DataFrame)->bool:
         try:
-            number_of_columns=len(self._schema_config)
+            number_of_columns=len(self.schema_config)
             logger.logging.info(f"Required number of columns:{number_of_columns}")
             logger.logging.info(f"Data frame has columns:{len(dataframe.columns)}")
             if len(dataframe.columns)==number_of_columns:

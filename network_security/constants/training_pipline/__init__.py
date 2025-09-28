@@ -13,7 +13,7 @@ ROOT_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__fil
 # C:\NetworkSecurity
 
 # path to schema.yaml
-SCHEMA_FILE_PATH = os.path.join(ROOT_DIR, "data_schema", "schema.yaml")
+SCHEMA_FILE_PATH = os.path.join(ROOT_DIR,"data_schema", "schema.yaml")
 
 # data ingestion constants
 DATA_INGESTION_COLLECTION_NAME: str = "NetworkData"
