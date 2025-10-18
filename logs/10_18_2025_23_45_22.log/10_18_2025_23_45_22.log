@@ -1,0 +1,14 @@
+2025-10-18 23:45:24,888 - INFO - Initiate the data ingestion
+2025-10-18 23:45:32,721 - INFO - Successfully split the data into train and test
+2025-10-18 23:45:32,748 - INFO - Exporting training and testing data
+2025-10-18 23:45:32,807 - INFO - Exporting of training and testing data is completed
+2025-10-18 23:45:32,808 - INFO - Data Initiation Completed
+2025-10-18 23:45:32,812 - INFO - Initiate the data Validation
+2025-10-18 23:45:32,914 - INFO - Required number of columns:2
+2025-10-18 23:45:32,914 - INFO - Data frame has columns:31
+2025-10-18 23:45:32,914 - INFO - Required number of columns:2
+2025-10-18 23:45:32,961 - INFO - Data frame has columns:31
+2025-10-18 23:45:33,122 - INFO - data Validation Completed
+2025-10-18 23:45:33,122 - INFO - Initiate the Data Transformation
+2025-10-18 23:45:33,123 - INFO - Data Transformation started
+2025-10-18 23:45:33,163 - INFO - Entered the save_object method of MainUtils class
