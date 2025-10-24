@@ -1,0 +1,20 @@
+2025-10-24 17:50:41,084 - INFO - Initiate the data ingestion
+2025-10-24 17:50:48,510 - INFO - Successfully split the data into train and test
+2025-10-24 17:50:48,510 - INFO - Exporting training and testing data
+2025-10-24 17:50:48,557 - INFO - Exporting of training and testing data is completed
+2025-10-24 17:50:48,557 - INFO - Data Initiation Completed
+2025-10-24 17:50:48,562 - INFO - Initiate the data Validation
+2025-10-24 17:50:48,630 - INFO - Required number of columns:2
+2025-10-24 17:50:48,630 - INFO - Data frame has columns:31
+2025-10-24 17:50:48,630 - INFO - Required number of columns:2
+2025-10-24 17:50:48,631 - INFO - Data frame has columns:31
+2025-10-24 17:50:48,748 - INFO - data Validation Completed
+2025-10-24 17:50:48,748 - INFO - Initiate the Data Transformation
+2025-10-24 17:50:48,748 - INFO - Data Transformation started
+2025-10-24 17:50:48,785 - INFO - Entered the save_object method of MainUtils class
+2025-10-24 17:50:48,788 - INFO - Data Transformation Completed
+2025-10-24 17:50:48,789 - INFO - model training artifect started
+2025-10-24 17:50:48,789 - INFO - Loading transformed training array and testing array
+2025-10-24 17:51:23,395 - INFO - Best found model on both training and testing dataset is RandomForestClassifier with score 0.8654728366867259
+2025-10-24 17:51:23,648 - INFO - Entered the save_object method of MainUtils class
+2025-10-24 17:51:23,691 - INFO - Model Trainer Artifact: ModelTrainerArtifact(trained_model_file_path='Artifact\\10_24_2025_17_50_39\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=0.9915521628498728, precision_score=0.9894373349583587, recall_score=0.9936760505915953), test_metric_artifact=ClassificationMetricArtifact(f1_score=0.9711804184761152, precision_score=0.9624413145539906, recall_score=0.9800796812749004))
